@@ -1,0 +1,15 @@
+Q.1 What are IIFE?
+
+ans -> Immediately Invoked Function Expression (IIFE) is one of the most popular design patterns in JavaScript. 
+      IEFE solves this problem by having its own scope and restricting functions and variables to become global.
+      The functions and variables declare inside IIFE will not pollute global scope even they have same name as global variables & functions.
+
+Q.2 What is currying?
+
+ans-> Currying is a function that takes one argument at a time and returns a new function expecting the next argument.
+     It is a transformation of functions that translates a function from callable as f(a, b, c) into callable as f(a)(b)(c).
+    
+    use of currying: 1) Currying is a checking method to make sure that you get everything you need before you proceed.
+                     2) it makes my code readable.
+                     3) It helps you to avoid passing the same variable again and again.
+                     
